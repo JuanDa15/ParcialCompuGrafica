@@ -129,8 +129,8 @@ def DrawSolido():
     drawPolygonSolid(window,SelectColor('Gray1'),DoceavaCara)
     
 if __name__ == "__main__":
-    DrawSolido()
     drawPlane(window,middle)
+    DrawSolido()
     while not end:
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
