@@ -1,11 +1,11 @@
 import pygame
-from Libreria import *
 
 pygame.init()
 
 ventana=pygame.display.set_mode([1080,720])
 pygame.display.set_caption("Parcial Computacion Grafica")
 Medio = [540,600]
+BLANCO = [255,255,255]
 
 Superior1 = [880,200]
 Superior2 = [930,200]

@@ -127,7 +127,7 @@ def DrawSolido():
     drawPolygonSolid(window,SelectColor('White'),DecimaCara)
     drawPolygonSolid(window,SelectColor('Gray2'),OnceavaCara)
     drawPolygonSolid(window,SelectColor('Gray1'),DoceavaCara)
-    
+
 if __name__ == "__main__":
     drawPlane(window,middle)
     DrawSolido()
