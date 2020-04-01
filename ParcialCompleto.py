@@ -260,10 +260,10 @@ if __name__ == "__main__":
                     DrawSolido(PrimerCara,SegundaCara,TercerCara,CuartaCara,QuintaCara,SextaCara,SeptimaCara,OctavaCara,NovenaCara,DecimaCara,OnceavaCara,DoceavaCara)
                 if event.button == 4:
                     escalarIso(porcentaje)
-                    porcentaje = porcentaje + 0.01
+                    porcentaje = porcentaje * 2
                 if event.button == 5:
                     escalarIso(porcentaje)
-                    porcentaje = porcentaje - 0.01
+                    porcentaje = porcentaje / 2
                     if porcentaje < 0:
                         porcentaje = 0
             if event.type == pygame.KEYDOWN:
