@@ -269,12 +269,12 @@ if __name__ == "__main__":
             if event.type == pygame.KEYDOWN:
                 if event.key == pygame.K_RIGHT:
                     Rotar(angulo)
-                    angulo+=1
+                    angulo+=30
                     if angulo >= 360:
                         angulo = 0
                 if event.key == pygame.K_LEFT:
                     Rotar(angulo)
-                    angulo-=1
+                    angulo-=30
                     if angulo <= 0:
                         angulo = 360
         vistas()
